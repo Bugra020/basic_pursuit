@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'path_publisher = basic_pursuit.path_planning:main',
+            'action_module = basic_pursuit.action_control:main'
         ],
     },
 )
