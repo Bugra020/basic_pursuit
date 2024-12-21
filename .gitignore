@@ -1,0 +1,19 @@
+
+# ROS 2 build directories
+build/
+install/
+log/
+
+# ROS 2 specific files
+.colcon/
+colcon.meta
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.~*
